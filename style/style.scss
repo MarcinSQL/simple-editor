@@ -24,6 +24,7 @@ body {
   &__heading {
     color: whitesmoke;
     font-weight: 400;
+    margin: 0;
   }
   &__editor{
     width: 50vw;
@@ -31,10 +32,25 @@ body {
     height: 30vh;
     min-height: 300px;
     border-radius: 16px;
+    margin: 0.67em 0;
   }
   &__btn-container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    &__btn{
+        cursor: pointer;
+        padding: 5px 30px;
+        margin-left: 20px;
+        font-weight: 600;
+        border: none;
+        color: whitesmoke;
+        &--load{
+            background-color: #5980c7;
+        }
+        &--save{
+            background-color: #529452;
+        }
+    }
   }
 }
