@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Marcin Wasilewski">
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/style.css.map">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcin Wasilewski" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/style.css.map" />
     <title>Editor</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="main">
-        <h1 class="main__heading">My editor</h1>
-        <textarea class="main__editor" name="editor" id="editor" cols="30" rows="10"></textarea>
-        <div class="main__btn-container">
-            <button class="main__btn-container__btn main__btn-container__btn--load">Load</button>
-            <button class="main__btn-container__btn main__btn-container__btn--save">Save</button>
-        </div>
+      <h1 class="main__heading">My editor</h1>
+      <textarea class="main__editor" name="editor" id="editor"></textarea>
+      <div class="main__btn-container">
+        <button
+          class="main__btn-container__btn main__btn-container__btn--load main__btn-container__btn--load--js"
+        >
+          Load
+        </button>
+        <button
+          class="main__btn-container__btn main__btn-container__btn--save main__btn-container__btn--save--js"
+        >
+          Save
+        </button>
+      </div>
     </main>
     <script src="/src/main.js"></script>
-</body>
+  </body>
 </html>
