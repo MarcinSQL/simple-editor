@@ -16,6 +16,22 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: whitesmoke;
   background-color: #2c2141;
+}
+
+.main__heading {
+  color: whitesmoke;
+  font-weight: 400;
+}
+.main__editor {
+  width: 50vw;
+  min-width: 300px;
+  height: 30vh;
+  min-height: 300px;
+  border-radius: 16px;
+}
+.main__btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
